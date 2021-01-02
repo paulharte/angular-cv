@@ -1,0 +1,98 @@
+.greyback {
+    background: #58595b;
+    text-align: center;
+}
+
+.top-ornament {
+    height: 62px;
+}
+
+.avatar {
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    position: relative;
+}
+
+svg.dotted.round {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 3px;
+    height: 120px;
+    width: 115px;
+    stroke: #facd48;
+    stroke-width: 4px;
+    stroke-dasharray: 1 12;
+    stroke-dashoffset: 8;
+    stroke-linecap: round;
+    fill: none;
+}
+
+svg.round {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+
+}
+
+svg.round:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+}
+
+.thumbnail {
+    overflow: hidden;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    z-index: 0;
+    height: 120px;
+    width: 120px;
+    padding: 0;
+}
+
+.thumbnail> img {
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.namebox {
+    background: #facd48;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    padding: 5px 25px;
+    display: inline-block;
+    z-index: 100;
+}
+
+.underpanel {
+    margin-top: -20px;
+    background: white;
+}
+
+.h-divider {
+    background: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 15px;
+}
+
+.divider {
+    padding-top: 1px;
+}
+
+hr {
+    color: #58595b;
+}
