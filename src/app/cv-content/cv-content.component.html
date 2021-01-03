@@ -1,9 +1,9 @@
 <div class="container cv-container">
 <div class="row">
-    <div class="col-md">
+    <div class="col-lg-4 col-md-6 col-xs-12">
 
         <app-section title="Summary" [icon]="summaryIcon">
-            A tech lover with curiousity for all things. I love to use programming to optimise my everyday life! Check out the side projects section for my beer brewing system.
+            A tech lover with curiousity for all things. Proven track record of building teams and delivering projects. Check out the side projects section for my beer brewing system and other interesting builds.
         </app-section>
 
         <app-section title="Work Experience" [icon]="workExperienceIcon">
@@ -12,9 +12,10 @@
                     <li>Responsible for building out a new team in Dublin</li>
                     <li>Setting technical direction, and best practices, as well as beign a 'hands on' developer</li>
                     <li>Designing automated testing stack for current and future builds</li>
-                    <li>Manager of 6 developers</li>
+                    <li>Managed team of 6 developers</li>
                     <li>Working directly with our clients in Treasury to build solutions to improve the banks management of its $2.1 trillion in assets</li>
                     <li>Built a system to fund the thousands of external bank accounts held by the investment banking arm of the firm, based on realtime projections of cash needs</li>
+                    <li>Successfully completed, deployed and supported many projects, including ones in the areas of internal loan pricing, loan requesting, regulatory submissions, trade entry and more</li>
                     <li>Currently bringing to production the first machine learning algorithm used in the bank's Treasury department</li>
                 </ul>
             </app-life-period>
@@ -32,23 +33,38 @@
             </app-life-period>
         </app-section>
     </div>
-    <div class="col-md">
+    <div class="col-lg-4 col-md-6 col-xs-12">
         <app-section title="Skills" [icon]="skillsIcon">
             <strong>Major Tech Skills</strong>
             <ul>
                 <li>Python</li>
                 <li>Java</li>
                 <li>Angular/Typescript/Javascript</li>
-                <li>Tensorflow</li>
+                <li>Tensorflow & Keras</li>
                 <li>Apache Kafka</li>
                 <li>SQL (Oracle/MySQL/MS SQL Server)</li>
             </ul>
             <strong>Other Tech Skills</strong>
             <div>
-                <span>GIT, Jenkins, AWS, Unix scripting, Perl, Ruby, VB.NET, HTML, CSS, SCSS, REST, Flask, jQuery,  Selenium, Pandas, Jupyter
-                    Spring, Hibernate, Tomcat, JPA, Hikari, Hazelcast, H2
+                <span>
+                    Python-related: Injector, Flask, Jinja, pytest, pickle <br> 
+                    Web: HTML 5, CSS, SCSS, REST,  jQuery, Selenium, devExtreme<br> 
+                    Java-related: Spring, Hibernate, Tomcat, JPA, Hikari, Hazelcast, H2<br>
+                    Machine Learning: Pandas, Jupyter, numPy, scikit-learn <br> 
+                    Tooling: AWS, GIT, Jenkins, Unix scripting, Perl<br> 
+                    Other: Ruby, VB.NET
                 </span>
-            </div>
+            </div> <br>
+            <strong>Soft Skills</strong>
+            <ul>
+                <li>Management</li>
+                <li>Mentoring graduate and intern developers</li>
+                <li>Hiring for technical roles</li>
+                <li>Agile methodologies</li>
+                <li>Working with remote teams and team members</li>
+                <li>Managing relationships with key stakeholders</li>
+            </ul>
+
         </app-section>
         <app-section title="Education" [icon]="educationIcon">
             <app-life-period dateText="09/2008 - 09/2009" 
@@ -57,7 +73,7 @@
                 <ul>
                     <li>Including courses on Maths, Statistics, Computer Science and Machine Learning</li>
                     <li>Graduated with a GPA of 3.65</li>
-                    <li>Completed Machine Learning based dissertation on predicting commuter traffic patterns in Ireland for which i received an 'A' grade</li>
+                    <li>Completed a dissertation on using machine learning techniques to predict commuter traffic patterns in Ireland, receiving an 'A' grade</li>
                 </ul>
 
             </app-life-period>
@@ -71,20 +87,20 @@
             </app-life-period>
         </app-section>
     </div>
-    <div class="col-lg">
+    <div class="col-lg-4 col-md-6 col-xs-12">
         <app-section title="Side Projects" [icon]="sideProjectIcon">
-            See my GitHub for:
+            See <a href="http://github.com/paulharte">my GitHub</a> for:
             <ul>
-                <li>Autobrew: beer brewing system written in Python on Raspberry Pi</li>
-                <li>Football Team Picker: using ML to pick the perfect 5 a side teams</li>
-                <li>Android Weather App: an upgrade to the Met Eireann android widget</li>
+                <li><a href="https://github.com/paulharte/autobrew">Autobrew</a>: beer brewing system written in Python on Raspberry Pi</li>
+                <li><a href="https://github.com/paulharte/football_team_picker">Football Team Picker</a>: using Machine Learning through Tensorflow to pick the perfect 5 a side teams</li>
+                <li><a href="https://github.com/paulharte/angular-cv">This CV</a>: made using Angular and Bootstrap</li>
             </ul>
         </app-section>
         <app-section title="Interesting Facts" [icon]="interestingIcon">
             <ul>
                 <li>Formerly held a world ranking in Snowboard slopestyle</li>
                 <li>Taught Saddam Hussein’s granddaughter how to ski</li>
-                <li>Also enjoys surfing, wakeboarding, kiteboarding and soccer</li>
+                <li>Also enjoys surfing, wakeboarding, soccer and brewing beer</li>
             </ul>
         </app-section>
 

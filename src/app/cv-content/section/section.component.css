@@ -20,3 +20,9 @@
     padding-left: 8px;
 }
 
+@media print {
+    .col {
+        width: 50%;
+        max-width: 50%;
+    }
+}

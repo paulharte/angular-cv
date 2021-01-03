@@ -3,8 +3,8 @@
     text-align: center;
 }
 
-.top-ornament {
-    height: 62px;
+.patternback {
+    background-image: url("~src/assets/simple-pattern.jpg");
 }
 
 .avatar {
@@ -93,6 +93,8 @@ svg.round:hover {
     padding-top: 1px;
 }
 
-hr {
-    color: #58595b;
+.middle {
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 0px;
 }
