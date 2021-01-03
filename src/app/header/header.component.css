@@ -5,6 +5,7 @@
 
 .patternback {
     background-image: url("~src/assets/simple-pattern.jpg");
+    text-align: center;
 }
 
 .avatar {
@@ -79,6 +80,7 @@ svg.round:hover {
 
 .underpanel {
     margin-top: -20px;
+    margin-bottom: -2px;
     background: white;
 }
 
