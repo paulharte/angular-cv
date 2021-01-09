@@ -100,3 +100,10 @@ svg.round:hover {
     padding-top: 60px;
     margin-top: 0px;
 }
+
+/* Change background for printing, as it looks nicer */
+@media print {
+    .middle {
+        background: #58595b!important;
+    }
+}

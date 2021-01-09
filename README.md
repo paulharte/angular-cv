@@ -1,5 +1,5 @@
 # angular-cv
-![Build Status](https://github.com/paulharte/angular-cv/workflows/Node.js%20CI/badge.svg)
+![Build Status](https://github.com/paulharte/angular-cv/workflows/test-and-deploy/badge.svg)
 
 ## Overview
 
