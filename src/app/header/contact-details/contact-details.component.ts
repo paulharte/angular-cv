@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-contact-details',
@@ -13,10 +14,13 @@ export class ContactDetailsComponent implements OnInit {
   domain = "gmail.com"
 
   github = "github.com/paulharte"
+  show_private_details = false;
 
   constructor() { }
 
   ngOnInit(): void {
+
+    this.show_private_details =  environment.show_private_details
   }
 
   formEmail(): string {

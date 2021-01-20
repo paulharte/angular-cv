@@ -22,4 +22,11 @@ describe('ContactDetailsComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should create without private details', () => {
+    component.show_private_details = true;
+    expect(component).toBeTruthy();
+    component.show_private_details = false;
+    expect(component).toBeTruthy();
+  });
 });

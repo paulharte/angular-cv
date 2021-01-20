@@ -1,11 +1,16 @@
 
-<div class="contacts">
+<div class="contacts" *ngIf="show_private_details">
     {{phone_number}}
     <span class="separator"> | </span>
     <a href="mailto:{{formEmail()}}">
         {{formEmail()}}
     </a>
     <span class="separator"> | </span>
+    <a href="http://{{github}}">
+        {{github}}
+    </a>
+</div>
+<div class="contacts" *ngIf="!show_private_details">
     <a href="http://{{github}}">
         {{github}}
     </a>
