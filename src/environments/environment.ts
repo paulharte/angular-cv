@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  show_private_details: true
+  show_private_details: true,
+  show_live_link: true
 };
 
 /*
