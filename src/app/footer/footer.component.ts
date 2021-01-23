@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
 
   github = 'http://github.com/paulharte/angular-cv'
-  live_link = 'http://angular-cv.s3-website-eu-west-1.amazonaws.com/'
+  live_link = 'https://cv.paulspetprojects.net/'
 
   constructor() { }
 
