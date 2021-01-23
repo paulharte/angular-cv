@@ -14,6 +14,7 @@ export class ContactDetailsComponent implements OnInit {
   domain = "gmail.com"
 
   github = "github.com/paulharte"
+  my_website = "paulspetprojects.net"
   show_private_details = false;
 
   constructor() { }

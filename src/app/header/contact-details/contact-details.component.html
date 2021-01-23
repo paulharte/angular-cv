@@ -1,17 +1,18 @@
 
-<div class="contacts" *ngIf="show_private_details">
-    {{phone_number}}
-    <span class="separator"> | </span>
-    <a href="mailto:{{formEmail()}}">
-        {{formEmail()}}
-    </a>
-    <span class="separator"> | </span>
+<div class="contacts">
+    <div *ngIf="show_private_details">
+        <span>{{phone_number}}</span>
+        <span class="separator"> | </span>
+        <a href="mailto:{{formEmail()}}">
+            {{formEmail()}}
+        </a>
+        <span class="separator"> | </span>
+    </div>
     <a href="http://{{github}}">
         {{github}}
     </a>
-</div>
-<div class="contacts" *ngIf="!show_private_details">
-    <a href="http://{{github}}">
-        {{github}}
+    <span class="separator"> | </span>
+    <a href="http://{{my_website}}">
+        {{my_website}}
     </a>
 </div>
